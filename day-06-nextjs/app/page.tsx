@@ -1,9 +1,10 @@
+import Link from "next/link";
 export default function Home() {
   return (
-    <main className="min-h-screen flex items-center justify-center">
-      <h1 className="text-3xl font-bold">
-        Day 6 – Next.js Started 🚀
-      </h1>
+    <main className="flex min-h-screen flex-col items-center justify-center gap-4">
+      <h1>Day 6 – Next.js 🚀</h1>
+      <Link href="/About">Go to About</Link>
+      <Link href="/Client">Go to Client</Link>
     </main>
   );
 }

@@ -27,6 +27,9 @@ export default function RootLayout({
       <body
         className={`${geistSans.variable} ${geistMono.variable} antialiased`}
       >
+        <nav className="border-b p-4 flex justify-center font-semibold mb-8 ">
+          <h1>Build with hadi</h1>
+        </nav>
         {children}
       </body>
     </html>
