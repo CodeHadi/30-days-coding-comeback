@@ -5,6 +5,7 @@ export default function Home() {
       <h1>Day 6 – Next.js 🚀</h1>
       <Link href="/About">Go to About</Link>
       <Link href="/Client">Go to Client</Link>
+      <Link href="/Go">Go to Go</Link>
     </main>
   );
 }
