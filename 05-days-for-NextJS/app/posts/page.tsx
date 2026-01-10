@@ -27,11 +27,18 @@ export default function PostsPage() {
     post.title.toLowerCase().includes(searchTerm.toLowerCase())
   );
 
-  if (loading) return <p className="p-5 text-center text-xl font-bold">Loading Blog Posts...</p>;
-
+  if (loading)
+  return (
+    <div className="flex items-center justify-center h-screen">
+      <p className="text-xl font-bold">Loading Blog Posts...</p>
+    </div>
+  );
   return (
     <div className="p-5 max-w-4xl mx-auto">
-      <h1 className="text-3xl font-bold mb-6 text-center text-blue-600">Mini Blog Explorer</h1>
+     <h1 className="text-3xl font-bold m-8 text-center text-blue-300">
+      Mini Blog Explorer 🚀
+      </h1>
+
 
       <div className="mb-10">
         <input
