@@ -13,7 +13,6 @@ name = "Ali"; // ❌ error (const)
 const greet = (names) => {
   return `Hello, ${names}`;
 };
-
 console.log(greet(names));
 
 // Array + Loop
@@ -29,5 +28,4 @@ let user = {
   age: age,
   skills: skills
 };
-
 console.log(user);
