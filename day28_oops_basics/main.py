@@ -1,6 +1,5 @@
 # Day 28 - OOPs Basics in Python
 # Topic: Class, Object, __init__, self, Methods
-
 # 1️⃣ Class banana
 class Student:
     # constructor (jab object banay ga, ye auto call hoga)
